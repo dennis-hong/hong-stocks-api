@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
 from flask_cors import CORS
-from test import get_kospi
+from stocks import get_kospi
 
 app = Flask(__name__)
 api = Api(app)
